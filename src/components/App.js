@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import "./../styles/App.css";
 
 function App() {
@@ -13,7 +13,6 @@ function App() {
       </button>
       {flag && (
         <p id="para">
-          {" "}
           Hello, I've learnt to use the full-stack evaluation tool. This makes
           me so happy
         </p>
